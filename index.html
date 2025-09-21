@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
 
-    <title>To-Do</title>
+    <title>wait...WHAT?!</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,6 +27,11 @@
 
 <body>
 
+   
+    <!-- <video autoplay muted loop id="bg-video">
+        <source src="style/super_back.mp4" type="video/mp4">
+    </video> -->
+
     <main class="todo">
 
         <div class="container">
@@ -42,11 +46,9 @@
 
                 <div class="todo__field field">
 
-                    <input id="new-task" type="text" placeholder="Enter your tasks..." class="field__input" />
+                    <textarea id="new-task" placeholder="Enter your tasks..." class="field__textarea"></textarea>
 
-
-
-                    <button id="btnNewTask" class="btn-dark">
+                    <button id="btnNewTask" class="btn btn-outline-info">
 
                         Add new task
 
@@ -54,29 +56,28 @@
 
                 </div>
 
-
             </form>
 
-            <ul class="list" id="list">
-                <li id="element-list" class="element-list">
-                    <h3 id="task">Task 1</h3>
-                    <button class="btn-delete">x</button>
+            <ul class="list-group-flush" id="list">
+                <li class="element-list">
+                    <a href="#!" class="task-text">Task 1</a>
+                    <button type="button" class="btn-close" aria-label="Close"></button>
                 </li>
-                <li id="element-list" class="element-list">
-                    <h3 id="task">Task 1</h3>
-                    <button class="btn-delete">x</button>
+                <li class="element-list">
+                    <a href="#!" class="task-text">Task 1</a>
+                    <button type="button" class="btn-close" aria-label="Close"></button>
                 </li>
-                <li id="element-list" class="element-list">
-                    <h3 id="task">Task 1</h3>
-                    <button class="btn-delete">x</button>
+                <li class="element-list">
+                    <a href="#!" class="task-text">Task 1</a>
+                   <button type="button" class="btn-close" aria-label="Close"></button>
                 </li>
-                <li id="element-list" class="element-list">
-                    <h3 id="task">Task 1</h3>
-                    <button class="btn-delete">x</button>
+                <li class="element-list">
+                    <a href="#!" class="task-text">Task 1</a>
+                    <button type="button" class="btn-close" aria-label="Close"></button>
                 </li>
-                <li id="element-list" class="element-list">
-                    <h3 id="task">Task 1</h3>
-                    <button class="btn-delete">x</button>
+                <li class="element-list">
+                    <a href="#!" class="task-text">Task 1</a>
+                    <button type="button" class="btn-close" aria-label="Close"></button>
                 </li>
             </ul>
 
