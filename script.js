@@ -47,3 +47,13 @@ Array.from(buttonDeleteTask).forEach(btn => {
 
     })
 });
+
+listGroup.addEventListener("click", (event) => {
+  if (event.target.classList.contains('btn-close')) {
+    const li = event.target.closest('li');
+    if (li) {
+        listGroup.removeChild(li)
+    }
+  }
+
+});
