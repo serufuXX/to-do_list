@@ -26,14 +26,7 @@
   z-index: -1;
 }
 
-
-
-
 /* Main */
-
-.main {
-    
-}
 
 .container {
     width: auto;
@@ -121,14 +114,4 @@
 .btn-close {
     padding: 0;
     border-radius: 50%;
-}
-
-.done {
-    
-}
-
-/* Footer */
-
-.footer {
-
 }
